@@ -11,6 +11,10 @@ Before you begin, ensure you have met the following requirements:
 - You have `git` installed on your machine.
 
 ## Installation
+To install dependencies, run:
+
+```bash
+npm install express axios cors
 
 ### Clone the Repository
 First, clone the repository to your local machine:
