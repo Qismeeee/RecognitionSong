@@ -86,7 +86,7 @@ function MusicRecognition() {
           )}
         </div>
       ) : (
-        <p>No song recognized yet.</p>
+        <p></p>
       )}
     </div>
   );

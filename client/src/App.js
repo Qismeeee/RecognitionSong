@@ -6,6 +6,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
+            <div className="App_logo"></div>
                 <div className="search-bar">
                     {/* <input type="text" placeholder="Search song..." className="search-input" /> */}
                     <MusicRecognition />
