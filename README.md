@@ -15,6 +15,7 @@ To install dependencies, run:
 
 ```bash
 npm install express axios cors
+```
 
 ### Clone the Repository
 First, clone the repository to your local machine:
