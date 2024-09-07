@@ -13,36 +13,35 @@
   }
 }
 
-/* Consolidated .App-header styles */
+
+.App_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  margin: 0 auto; 
+  background-image: url('../public/Cốc\ Cốc\ _\ logo.png'); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
 .App-header {
-  background-color: #3b8c38;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black; 
   padding: 20px;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #3b8c38;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,11 +52,12 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  margin-top: 5px; 
 }
 
 .search-input {
   width: 350px;
-  padding: 10px 50px 10px 20px; /* Điều chỉnh để có khoảng trống cho icon */
+  padding: 10px 50px 10px 20px;
   font-size: 16px;
   border-radius: 30px;
   border: none;
@@ -67,7 +67,7 @@ body {
 
 .mic-button {
   position: absolute;
-  right: 15px; /* Vị trí của icon micro */
+  right: 15px;
   background: none;
   border: none;
   cursor: pointer;
@@ -81,18 +81,7 @@ body {
 .result {
   margin-top: 20px;
   text-align: center;
-  color: #ffffff;
-}
-
-.result h3 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.result p {
-  font-size: 20px;
-  margin: 10px 0;
+  color: #3b8c38; 
 }
 
 .error-message {
