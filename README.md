@@ -1,4 +1,5 @@
 # Music Recognition Web
+
 ## Description
 ## Project Structure
 - **Client**: The front-end part of the application.
@@ -10,6 +11,11 @@ Before you begin, ensure you have met the following requirements:
 - You have `git` installed on your machine.
 
 ## Installation
+To install some dependencies, run:
+
+```bash
+npm install express axios cors
+```
 
 ### Clone the Repository
 First, clone the repository to your local machine:
@@ -72,4 +78,3 @@ To use Music Recognition Web, follow these steps:
 1. Ensure both the client and server are running.
 2. Open your browser and navigate to `http://localhost:{{client-port}}`.
 3. Interact with the application as needed.
-
