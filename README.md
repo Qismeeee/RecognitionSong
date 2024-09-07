@@ -11,7 +11,7 @@ Before you begin, ensure you have met the following requirements:
 - You have `git` installed on your machine.
 
 ## Installation
-To install dependencies, run:
+To install some dependencies, run:
 
 ```bash
 npm install express axios cors
