@@ -1,5 +1,11 @@
 # Music Recognition Web
 
+<<<<<<< HEAD
+=======
+## Description
+
+
+>>>>>>> master
 ## Project Structure
 - **Client**: The front-end part of the application.
 - **Server**: The back-end part of the application.
@@ -71,4 +77,8 @@ To use Music Recognition Web, follow these steps:
 
 1. Ensure both the client and server are running.
 2. Open your browser and navigate to `http://localhost:{{client-port}}`.
+<<<<<<< HEAD
 3. Interact with the application as needed.
+=======
+3. Interact with the application as needed.
+>>>>>>> master
