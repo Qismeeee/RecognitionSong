@@ -1,8 +1,5 @@
 # Music Recognition Web
 ## Description
-
-
->>>>>>> master
 ## Project Structure
 - **Client**: The front-end part of the application.
 - **Server**: The back-end part of the application.
